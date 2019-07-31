@@ -14,7 +14,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class GetIndexPageServlet extends HttpServlet {
 
     private final static String index = "index.jsp";
-
     private List<User> users;
 
     @Override
