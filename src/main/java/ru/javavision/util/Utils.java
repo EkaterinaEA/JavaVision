@@ -11,9 +11,7 @@ public class Utils {
 
         final String id = request.getParameter("id");
 
-        return id != null &&
-                (id.length() > 0) &&
-                id.matches("[+]?\\d+");
+        return id != null && (id.length() > 0) && id.matches("[+]?\\d+");
     }
 
     public static boolean requestIsValid(HttpServletRequest request){
